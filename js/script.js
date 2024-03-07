@@ -73,4 +73,22 @@ zucchine.forEach(element => {
 
 console.log(sum);
 
+// Snack 2 ///
+
+
+// const smallZucchine = zucchine.filter(  lunghezza => {
+//   if(zucchine.lunghezza <= 15){
+//     return true
+//   }else{
+//   return false
+//   }  
+// } );
+// console.log(smallZucchine);
+
+// Snack 3 ///
+
+const str = 'Ciao'
+console.log(str.split('').reverse().join(''));
+
+
 
