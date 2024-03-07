@@ -75,15 +75,27 @@ console.log(sum);
 
 // Snack 2 ///
 
+let zucchineSmallSum = 0
+let zucchineBigSum = 0
 
-// const smallZucchine = zucchine.filter(  lunghezza => {
-//   if(zucchine.lunghezza <= 15){
-//     return true
-//   }else{
-//   return false
-//   }  
-// } );
-// console.log(smallZucchine);
+const zucchineSmall = zucchine.filter( (zucchine) => 
+  zucchine.lunghezza < 15);
+console.log(zucchineSmall);
+
+const zucchineBig = zucchine.filter( (zucchine) => 
+  zucchine.lunghezza >=15);
+console.log(zucchineBig);
+
+zucchineSmall.forEach(element => {
+  zucchineSmallSum += element.peso;
+});
+console.log(zucchineSmallSum);
+
+zucchineBig.forEach(element => {
+  zucchineBigSum += element.peso;
+});
+console.log(zucchineBigSum);
+
 
 // Snack 3 ///
 
