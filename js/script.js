@@ -90,5 +90,24 @@ console.log(sum);
 const str = 'Ciao'
 console.log(str.split('').reverse().join(''));
 
+// snack 4 ///
+
+const num = [1,2,3];
+const lettere = ['a','b','c'];
+let numLet = [];
+
+for(let i = 0; i < num.length; i++){
+  numLet.push(num[i]);
+  numLet.push(lettere[i]);
+}
+console.log(numLet);
+
+
+
+
+
+
+
+
 
 
